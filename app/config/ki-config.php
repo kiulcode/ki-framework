@@ -46,3 +46,20 @@ define('TEMPLATES', ROOT.'templates'.DS);
 define('INCLUDES', TEMPLATES.'includes'.DS);
 define('MODULES', TEMPLATES.'modules'.DS);
 define('VIEWS', TEMPLATES.'views'.DS);
+
+// Credenciales de la base de datos
+// Set para conexion local o de desarrollo
+define('LDB_ENGINE', 'mysql');
+define('LDB_HOST', '127.0.0.1');
+define('LDB_NAME', 'ki-framework');
+define('LDB_USER', 'root');
+define('LDB_PASS', '1234');
+define('LDB_CHARSET', 'utf8');
+
+// Set para conexion en producción o servidor real
+define('DB_ENGINE', 'mysql');
+define('DB_HOST', '127.0.0.1');
+define('DB_NAME', '___REMOTE DB___');
+define('DB_USER', '___REMOTE USER___');
+define('DB_PASS', '___REMOTE PASS___');
+define('DB_CHARSET', 'utf8');
